@@ -2,15 +2,22 @@
 /* Upper bar */
 
 /* Logo imitating google docs */
-.logo img{
+.logo{
     max-width: 64px;
+    height: auto;
+}
+
+.logo img{
+    max-width: 48px;
 }
 
 .upper-bar{
     display: flex;
     align-items: center;
     padding: 8px;
-    gap: 1rem
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .menu{
@@ -174,4 +181,64 @@
 hr{
     margin: 1rem;
     opacity: 0.6;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+/*Nav section on document side*/
+
+.nav{
+    width: 22vw;
+    padding: 1rem;
+    margin-top: 2.5rem;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+    color: #444746;
+    margin-left: 1rem;
+    max-width: 200px;
+}
+
+.nav-header p{
+    font-weight: bond;
+    padding: 4px;
+}
+
+/*the blue tab thing above the tabs*/
+.nav-document-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #D3E3FD;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    max-width: 225px;
+    margin-bottom: 0.25rem;
+}
+
+.nav-tabs{
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
+.nav-tab{
+    padding: 0.5rem 2rem;
+}
+
+/*Document content*/
+.document{
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    width: 60vw;
+    height: 100vh;
+    padding: 1rem;
 }
