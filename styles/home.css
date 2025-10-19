@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 /* Header bar */
 /* Upper bar */
 
@@ -228,10 +232,57 @@ hr{
 .nav-tabs{
     margin-top: 0;
     margin-left: 1rem;
+    position: relative;
+}
+
+.nav-tabs::before{
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #E0E0E0;
+    z-index: 1;
 }
 
 .nav-tab{
     padding: 0.5rem 2rem;
+    position: relative;
+    color: #444746;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-left: 8px;
+}
+
+.nav-tab a{
+    color: #444746;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.nav-tab a:hover{
+    color: #000;
+}
+
+.nav-tab:hover{
+    color: #000;
+}
+
+.nav-tab.active a{
+    color: #1a73e8;
+    font-weight: 500;
+}
+
+.nav-tab.active::before{
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #1a73e8;
+    z-index: 2;
 }
 
 /*Document content*/
