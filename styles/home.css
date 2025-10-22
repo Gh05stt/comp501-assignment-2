@@ -338,3 +338,11 @@ hr{
 .reference-link:hover{
     text-decoration: underline;
 }
+
+#reference-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1rem;
+}
