@@ -310,6 +310,12 @@ hr{
     margin-bottom: 1rem;
 }
 
+.document img{
+    max-width: 20vw;
+    display: block;
+    margin: 0 auto;
+}
+
 /* References */
 .reference-author {
     font-family: "Times New Roman", Times, serif;
