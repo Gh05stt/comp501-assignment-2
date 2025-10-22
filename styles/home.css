@@ -309,3 +309,26 @@ hr{
     padding: 3rem;
     margin-bottom: 1rem;
 }
+
+/* References */
+.reference-author {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.reference-title {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+.reference-link {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.reference-link a{
+    color: blue;
+}
+
+.reference-link:hover{
+    text-decoration: underline;
+}
