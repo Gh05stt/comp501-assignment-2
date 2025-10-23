@@ -304,16 +304,16 @@ hr{
 .document{
     border: 1px solid #E0E0E0;
     background-color: #fff;
-    width: 60vw;
-    height: 90vh;
-    padding: 3rem;
+    width: 816px;
+    height: 870px;
+    padding: 1.5rem;
     margin-bottom: 1rem;
 }
 
 .document img{
     max-width: 20vw;
     display: block;
-    margin: 0 auto;
+    margin: 0.5rem auto;
 }
 
 /* References */
@@ -345,4 +345,15 @@ hr{
     font-weight: bold;
     display: block;
     margin-bottom: 1rem;
+}
+
+#crash-reason-source{
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+    max-width: 500px;
+    display: block;
+    margin: 0.5rem auto;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 }
