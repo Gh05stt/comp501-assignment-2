@@ -357,3 +357,44 @@ hr{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* timeline & progress */
+.timeline-item{
+    margin: 1rem;
+}
+
+.timeline-date, .timeline-head{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+}
+
+.timeline-item li{
+    margin-left: 100px;
+    padding: 0.25rem;
+    font-size: 1rem;
+}
+
+.github-link a{
+    font-size: 1.5rem;
+    color: #000;
+    transition: all 0.2s ease;
+}
+
+.github-link a:hover{
+    color: #454545
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cred p{
+    margin: 0;
+    font-style: italic;
+    display: block;
+}
